@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><id>/blog/</id><title>TX.Tech</title><updated>2020-03-27T10:06:12.084711+08:06</updated><author><name>OPEN</name><email>liangtyx@gmail.com</email></author><link href="/blog/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>https://cdn.jsdelivr.net/gh/liangtyx/blog@gh-pages/logo.png</logo><subtitle>填不满的半杯水</subtitle><entry><id>/blog/archives/typography/</id><title>Hello World!</title><updated>2020-03-27T10:06:12.084767+00:00</updated><author><name>AlanDecode</name><email>liangtyx@gmail.com</email><uri>https://liangtyx.github.io</uri></author><content>&lt;div class="notice"&gt;这是一篇示例文章，在这里你可以看到常用页面元素的显示效果，同时也是 Markdown 语法的参考文章。保留或者删除本文，开始自己的创作吧！&lt;/div&gt;&lt;h2&gt;L2 Heading&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><id>/blog/</id><title>TX.Tech</title><updated>2020-03-27T10:20:41.571105+08:06</updated><author><name>OPEN</name><email>liangtyx@gmail.com</email></author><link href="/blog/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>https://cdn.jsdelivr.net/gh/liangtyx/blog@gh-pages/logo.png</logo><subtitle>填不满的半杯水</subtitle><entry><id>/blog/archives/typography/</id><title>Hello World!</title><updated>2020-03-27T10:20:41.571216+00:00</updated><author><name>AlanDecode</name><email>liangtyx@gmail.com</email><uri>https://liangtyx.github.io</uri></author><content>&lt;div class="notice"&gt;这是一篇示例文章，在这里你可以看到常用页面元素的显示效果，同时也是 Markdown 语法的参考文章。保留或者删除本文，开始自己的创作吧！&lt;/div&gt;&lt;h2&gt;L2 Heading&lt;/h2&gt;
 &lt;h3&gt;L3 Heading&lt;/h3&gt;
 &lt;h4&gt;L4 Heading&lt;/h4&gt;
 &lt;h5&gt;L5 Heading&lt;/h5&gt;
@@ -78,4 +78,34 @@
 &lt;/table&gt;
 &lt;h2&gt;Link Card&lt;/h2&gt;
 &lt;div class="links"&gt;
-&lt;a style="display:block" target="_blank" href="https://www.imalan.cn" class="board-item"&gt;                 &lt;div class="board-thumb"&gt;&lt;img src="https://secure.gravatar.com/avatar/1741a6eef5c824899e347e4afcbaa75d?s=200&amp;r=G&amp;d="&gt;&lt;/div&gt;                 &lt;div class="board-title"&gt;AlanDecode&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;hr&gt;&lt;div class="footnotes"&gt;&lt;ol&gt;&lt;li id="fn_1"&gt;Home page for AlanDecode &lt;a no-style href="#fn_ref_1"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</content><link href="/blog/archives/typography/" rel="alternate"/><published>2019-12-18T16:50:00+08:06</published></entry></feed>
+&lt;a style="display:block" target="_blank" href="https://www.imalan.cn" class="board-item"&gt;                 &lt;div class="board-thumb"&gt;&lt;img src="https://secure.gravatar.com/avatar/1741a6eef5c824899e347e4afcbaa75d?s=200&amp;r=G&amp;d="&gt;&lt;/div&gt;                 &lt;div class="board-title"&gt;AlanDecode&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;hr&gt;&lt;div class="footnotes"&gt;&lt;ol&gt;&lt;li id="fn_1"&gt;Home page for AlanDecode &lt;a no-style href="#fn_ref_1"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</content><link href="/blog/archives/typography/" rel="alternate"/><published>2019-12-18T16:50:00+08:06</published></entry><entry><id>/blog/archives/android/</id><title>Android</title><updated>2020-03-27T10:20:41.571160+00:00</updated><author><name>OPEN</name><email>liangtyx@gmail.com</email><uri>https://liangtyx.github.io</uri></author><content>&lt;h3&gt;android 刷机相关&lt;/h3&gt;
+&lt;blockquote&gt;&lt;p&gt;原生recovery的界面是一个倒地机器人，同时按电源键+音量上即可打开菜单&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4&gt;Nexus6P&lt;/h4&gt;
+&lt;p&gt;在设备管理中去掉GOOGLE，清除屏锁，恢复出厂
+打开OEM锁和usb调试
+连接电脑，安装驱动&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#重启进入BL，或关机状态下同时按电源键+音量下
+adb reboot bootloader
+#解锁BL:
+fastboot flashing unlock
+#刷入TWRP:
+fastboot flash recovery twrp***.img
+#也可引导进入临时TWRP：
+fastboot boot twrp***.img&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;进入TWRP，点install刷入Magisk包获取ROOT&lt;/p&gt;
+&lt;p&gt;可能用到的命令：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;adb devices  
+adb push filename.zip /sdcard/
+adb sideload *.zip&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;Redmi4X&lt;/h4&gt;
+&lt;p&gt;官网解锁Bootloader
+刷TWRP后刷入Magisk获取ROOT
+解锁system分区：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;adb root
+adb disable-verity&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;TWRP四清后卡刷ROM&lt;/p&gt;
+</content><link href="/blog/archives/android/" rel="alternate"/><published>2020-03-17T20:34:00+08:06</published></entry></feed>
