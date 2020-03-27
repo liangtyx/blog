@@ -2,14 +2,11 @@
 layout: page
 title: 关于
 slug: about
-date: 2017/06/28 17:26:00
+date: 2020/03/27 20:31:45
 status: publish
-author: AlanDecode
+author: OPEN
 categories: 
-  - Maverick
-  - Dev
-tags: 
-  - theme
+  - LIFE
 ---
 
 这里是我的个人博客，通过 GitHub 管理与构建。
@@ -17,6 +14,4 @@ tags:
 
 ## Contact
 
-Email: hi#imalan.cn (replace # with @)
-
-Telegram：[AlanDecode](https://t.me/alandecode)
+Email: liangtyx#gmail.com (replace # with @)
