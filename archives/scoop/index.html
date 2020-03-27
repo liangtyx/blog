@@ -23,19 +23,20 @@
         }
     </script>
     
-<title>分类: Maverick - TX.Tech</title>
+<title>Scoop相关 - TX.Tech</title>
 <meta name="author" content="OPEN" />
-<meta name="description" content="填不满的半杯水" />
-<meta property="og:title" content="分类: Maverick - TX.Tech" />
-<meta property="og:description" content="填不满的半杯水" />
+<meta name="description" content="Scoop相关" />
+<meta property="og:title" content="Scoop相关 - TX.Tech" />
+<meta property="og:description" content="Scoop相关" />
 <meta property="og:site_name" content="TX.Tech" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/blog/category/Maverick/" />
-<meta property="og:image" content="TX.Tech" />
-<meta name="twitter:title" content="分类: Maverick - TX.Tech" />
-<meta name="twitter:description" content="填不满的半杯水" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/blog/archives/scoop/" />
+<meta property="og:image" content="" />
+<meta property="article:published_time" content="2020-03-17T20:34:00-00.00" />
+<meta name="twitter:title" content="Scoop相关 - TX.Tech" />
+<meta name="twitter:description" content="Scoop相关" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/liangtyx/blog@gh-pages/logo.png" />
+<meta name="twitter:image" content="" />
 
 
     
@@ -63,27 +64,94 @@
             <div class="wrapper">
                 
 <main>    
-    
+    <section class="ga-section ga-content">
+        <article class="yue">
+            <h1 class="ga-post_title">Scoop相关</h1>
+            <span class="ga-post_meta ga-mono">
+                <span>OPEN</span>
+                <time>
+                    2020-03-17
+                </time>
+                
+                in <a no-style class="category" href="/blog/category/Tech/">
+                    Tech
+                </a>
+                
+                
+            </span>
+            <div class="ga-content_body">
+                <h4>安装 Scoop</h4>
+<p>运行 Pow­er­Shell (Win+x , i)</p>
+<div class="highlight"><pre><span></span><span class="c"># 允许本地脚本执行</span>
+<span class="nb">set-executionpolicy</span> <span class="n">remotesigned</span> <span class="n">-scope</span> <span class="n">currentuser</span>
+<span class="c"># 自定义安装路径(可选)</span>
+<span class="no">[environment]</span><span class="p">::</span><span class="n">setEnvironmentVariable</span><span class="p">(</span><span class="s1">&#39;SCOOP&#39;</span><span class="p">,</span><span class="s1">&#39;D:\scoop&#39;</span><span class="p">,</span><span class="s1">&#39;User&#39;</span><span class="p">)</span>
+<span class="nv">$env:SCOOP</span><span class="p">=</span><span class="s1">&#39;D:\scoop&#39;</span>
+<span class="c"># 自定义全局路径(可选)</span>
+<span class="no">[environment]</span><span class="p">::</span><span class="n">setEnvironmentVariable</span><span class="p">(</span><span class="s1">&#39;SCOOP_GLOBAL&#39;</span><span class="p">,</span><span class="s1">&#39;D:\bin&#39;</span><span class="p">,</span><span class="s1">&#39;Machine&#39;</span><span class="p">)</span>
+<span class="nv">$env:SCOOP_GLOBAL</span><span class="p">=</span><span class="s1">&#39;D:\bin&#39;</span>
+<span class="c"># 安装 Scoop</span>
+<span class="nb">iex </span><span class="p">(</span><span class="nb">new-object</span> <span class="n">net</span><span class="p">.</span><span class="n">webclient</span><span class="p">).</span><span class="n">downloadstring</span><span class="p">(</span><span class="s1">&#39;https://get.scoop.sh&#39;</span><span class="p">)</span>
+</pre></div>
+<p>安装完尝试一下：
+<code>scoop</code></p>
+<p>添加软件源：</p>
 
-<section id="ga-archive_list" class="ga-section" data-title="Cate: Maverick">
-    <ul>
-        
-        <li>
-            <h1><a target="_self" class="ga-highlight" href="/blog/archives/typography/">Hello World!</a></h1>
-            <time class="ga-mono">
-                2019-12-18
-            </time>
-        </li>
-        
-    </ul>
+<pre><code>scoop bucket add extras
+scoop bucket add dorado https://github.com/h404bi/dorado</code></pre>
+<p><a href="https://github.com/lukesampson/scoop/blob/master/buckets.json">官方源列表</a>
+<a href="https://github.com/rasa/scoop-directory/blob/master/by-score.md">Scoop buckets by Github score</a></p>
+<p>我的软件清单：</p>
+
+<pre><code>scoop install aria2 sudo 7zip git colortool vim
+scoop install windowsterminal
+scoop install clash-for-windows honeyview potplayer
+scoop install typora</code></pre>
+<p>其他</p>
+
+<pre><code>#给Scoop设置http代理
+scoop config proxy 127.0.0.1:7890
+#重置应用以解决冲突,会重置环境变量,快捷方式等..
+scoop reset *
+#检查潜在的问题..执行下看看使用scoop会有什么问题
+scoop checkup
+#如果使用了aria2感觉慢的话可以关闭
+scoop config aria2-enabled false  
+#日常更新软件
+scoop update * &amp;&amp; scoop cleanup *
+scoop cache rm *
+# 查看 Scoop 还能直接识别哪些 bucket
+scoop bucket known</code></pre>
+
+            </div>
+        </article>
+        <div id="ga-tags">
+    
+    <span class="ga-tag">
+        <a class="ga-highlight" href="/blog/tag/tech/">#tech</a>
+    </span>
+    
+</div>
+    </section>
+
+    
+<section id="ga-content_pager">
+
+    <div class="next">
+        <a class="ga-highlight" href="/blog/archives/turmux/">Turmux</a>
+        <p class="yue">Turmux</p>
+    </div>
+
+
+    <div class="prev">
+        <a class="ga-highlight" href="/blog/archives/pc-system/">PC安装系统</a>
+        <p class="yue">安装原版WIN10</p>
+    </div>
+
 </section>
 
-<section class="ga-section ga-mono" id="ga-pager">
-    
-    <span>Page 1 of 1</span>
-    
-</section>
 
+    
 
 </main>
 
