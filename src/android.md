@@ -6,12 +6,13 @@ date: 2020-03-17 20:34
 status: publish
 author: OPEN
 categories: 
-  - 默认分类
+  - Tech
 tags: 
   - tech
   - android
 excerpt: Android
 ---
+
 
 ### android 刷机相关
 
