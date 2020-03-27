@@ -14,14 +14,14 @@ template = {
     "path": "../Galileo"
 }
 enable_jsdelivr = {
-    "enabled": False,
-    "repo": ""
+    "enabled": True,
+    "repo": "liangtyx/blog@gh-pages"
 }
 
 # 站点设置
 site_name = "TX.Tech"
 site_logo = "${static_prefix}logo.png"
-site_build_date = "2019-12-18T16:51+08:00"
+site_build_date = "2019-12-25T12:25+08:00"
 author = "OPEN"
 email = "liangtyx@gmail.com"
 author_homepage = "https://liangtyx.github.io"
@@ -35,9 +35,9 @@ external_links = [
         "brief": "🏄‍ Go My Own Way."
     },
     {
-        "name": "三無計劃",
-        "url": "https://www.imalan.cn",
-        "brief": "熊猫小A的主页。"
+        "name": "Google",
+        "url": "https://www.google.com",
+        "brief": "Google"
     }
 ]
 nav = [
@@ -61,17 +61,17 @@ nav = [
 social_links = [
     {
         "name": "Twitter",
-        "url": "https://twitter.com/AlanDecode",
+        "url": "https://twitter.com/veryfai",
         "icon": "gi gi-twitter"
     },
     {
         "name": "GitHub",
-        "url": "https://github.com/AlanDecode",
+        "url": "https://github.com/liangtyx",
         "icon": "gi gi-github"
     },
     {
         "name": "Weibo",
-        "url": "https://weibo.com/5245109677/",
+        "url": "https://weibo.com/",
         "icon": "gi gi-weibo"
     }
 ]
