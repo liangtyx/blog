@@ -9,7 +9,7 @@ categories:
   - LIFE
 ---
 
-这里是我的个人博客，通过 GitHub 管理与构建。
+个人知识管理，通过 GitHub 管理与构建。
 
 
 ## Contact
