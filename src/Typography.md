@@ -1,16 +1,11 @@
 ---
-layout: post
 title: Hello World!
 slug: typography
 date: 2019-12-18 16:50
-status: publish
-author: AlanDecode
 categories: 
-  - Maverick
+  - Tech
 tags:
   - Design
-  - Typography
-excerpt: 这是一篇示例文章，在这里你可以看到常用页面元素的显示效果。
 ---
 
 [notice]这是一篇示例文章，在这里你可以看到常用页面元素的显示效果，同时也是 Markdown 语法的参考文章。保留或者删除本文，开始自己的创作吧！[/notice]
@@ -110,7 +105,7 @@ cell 3 | cell 4
 ## Link Card
 
 [links]
-[AlanDecode](https://www.imalan.cn)+(https://secure.gravatar.com/avatar/1741a6eef5c824899e347e4afcbaa75d?s=200&r=G&d=)
+[Open](https://liangtyx.github.io)+(https://secure.gravatar.com/avatar/1741a6eef5c824899e347e4afcbaa75d?s=200&r=G&d=)
 [/links]
 
 

@@ -9,7 +9,6 @@ categories:
   - Life
 tags: 
   - note
-excerpt: 读书笔记
 ---
 
 

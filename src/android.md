@@ -10,7 +10,6 @@ categories:
 tags: 
   - tech
   - android
-excerpt: Android
 ---
 
 

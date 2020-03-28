@@ -4,7 +4,7 @@
 
 # For Maverick
 site_prefix = "/blog/"
-static_prefix = "../src/static/"
+#static_prefix = "../src/static/"
 source_dir = "../src/"
 build_dir = "../dist/"
 index_page_size = 10
@@ -15,11 +15,6 @@ template = {
     "url": "https://github.com/AlanDecode/Maverick-Theme-Kepler.git",
     "branch": "latest"
 }
-#template = {
-#    "name": "Galileo",
-#    "type": "local",
-#    "path": "../Galileo"
-#}
 enable_jsdelivr = {
     "enabled": True,
     "repo": "liangtyx/blog@gh-pages"
@@ -37,9 +32,9 @@ key_words = ['Maverick', 'Galileo', 'blog']
 language = 'zh-CN'
 external_links = [
     {
-        "name": "Maverick",
-        "url": "https://github.com/AlanDecode/Maverick",
-        "brief": "🏄‍ Go My Own Way."
+        "name": "Github",
+        "url": "https://github.com/liangtyx/blog",
+        "brief": "Life is a chocolate."
     },
     {
         "name": "Google",

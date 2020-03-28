@@ -9,7 +9,6 @@ categories:
   - Tech
 tags: 
   - tech
-excerpt: Turmux
 ---
 
 
