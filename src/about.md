@@ -2,15 +2,10 @@
 layout: page
 title: 关于
 slug: about
-date: 2020/03/27 20:31:45
-status: publish
-author: OPEN
-categories: 
-  - LIFE
+date: 2020-04-05 11:53:24
 ---
 
-个人知识管理，通过 GitHub 管理与构建。
-
+## 良剑期乎断，不期乎镆铘；良马期乎千里，不期乎骥骜。
 
 ## Contact
 

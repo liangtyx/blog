@@ -1,10 +1,7 @@
 ---
-layout: post
 title: Android
 slug: android
-date: 2020-03-27 20:35:51
-status: publish
-author: OPEN
+date: 2020-04-05 11:53:15
 categories: 
   - Tech
 tags: 

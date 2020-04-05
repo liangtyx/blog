@@ -2,9 +2,7 @@
 layout: post
 title: memo
 slug: memo
-date: 2020-03-17 20:34
-status: publish
-author: OPEN
+date: 2020-04-05 11:52:51
 categories: 
   - Life
 tags: 

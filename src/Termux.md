@@ -1,10 +1,7 @@
 ---
-layout: post
 title: Turmux
 slug: turmux
-date: 2020-03-17 20:34
-status: publish
-author: OPEN
+date: 2020-04-05 11:52:04
 categories: 
   - Tech
 tags: 

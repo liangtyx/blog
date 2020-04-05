@@ -1,10 +1,7 @@
 ---
-layout: post
 title: note
 slug: note
-date: 2020-03-17 20:34
-status: publish
-author: OPEN
+date: 2020-04-05 11:52:45
 categories: 
   - Life
 tags: 
